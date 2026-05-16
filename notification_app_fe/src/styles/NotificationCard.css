@@ -1,0 +1,32 @@
+.notification-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.notification-card:hover {
+  transform: translateY(-5px);
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new {
+  background: #2563eb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.viewed {
+  background: #94a3b8;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
